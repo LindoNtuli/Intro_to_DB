@@ -1,4 +1,8 @@
--- task_2.sql
+DROP TABLE IF EXISTS order_details;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS books;
+DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS authors;
 
 CREATE TABLE authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
