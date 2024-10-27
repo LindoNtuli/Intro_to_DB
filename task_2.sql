@@ -35,7 +35,7 @@ CREATE TABLE Orders (
     customer_id INT,
     order_date DATETIME NOT NULL,
     total_amount DECIMAL(10, 2),
-    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
 CREATE TABLE Order_details (
