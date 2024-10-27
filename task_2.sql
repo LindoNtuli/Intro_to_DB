@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS authors;
 
 CREATE TABLE authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
+    author_name VARCHAR(255) NOT NULL,
     birth_date DATE,
     nationality VARCHAR(100)
 );
