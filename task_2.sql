@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS Order_details;
+DROP TABLE IF EXISTS Order_Details;
 DROP TABLE IF EXISTS Orders;
 DROP TABLE IF EXISTS Books;
 DROP TABLE IF EXISTS Customers;
@@ -38,7 +38,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
-CREATE TABLE Order_details (
+CREATE TABLE Order_Details (
     order_detail_id INT PRIMARY KEY AUTO_INCREMENT,
     order_id INT,
     book_id INT,
