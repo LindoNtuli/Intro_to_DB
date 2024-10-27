@@ -2,9 +2,9 @@ DROP TABLE IF EXISTS order_details;
 DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS customers;
-DROP TABLE IF EXISTS authors;
+DROP TABLE IF EXISTS Authors;
 
-CREATE TABLE authors (
+CREATE TABLE Authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
     author_name VARCHAR(255) NOT NULL,
     birth_date DATE,
